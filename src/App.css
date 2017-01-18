@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  flex: 1 0 100%;
+  border: 1px solid gray;
+}
+.logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-inverse {
+  background-color: #000;
+  border-color: #080808;
+}
