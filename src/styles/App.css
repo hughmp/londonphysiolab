@@ -9,14 +9,4 @@
   flex: 1 0 100%;
   border: 1px solid gray;
 }
-.logo {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.navbar-inverse {
-  background-color: #000;
-  border-color: #080808;
-  /* box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 2px, rgba(0, 0, 0, 0.341176) 0px 3px 6px;
-  */
-  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
-}
+

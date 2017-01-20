@@ -1,0 +1,21 @@
+/* common styles */
+.footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex: 0 0 20rem;
+	background-color: dimgray;
+
+	border: 0px solid gray;
+}
+.ft {
+	flex: 1 1 100%;
+	border: 1px solid gray;
+}
+
+/* mobile styles */
+@media screen and (max-width: 700px) {
+	.footer {
+		flex-direction: row;
+	}
+}
