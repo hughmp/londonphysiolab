@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/bootstrap/bootstrap.min.css';
 import './styles/App.css';
-import ReactRouter from 'react-router';
+import Router from 'react-router';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
