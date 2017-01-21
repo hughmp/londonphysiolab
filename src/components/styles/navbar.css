@@ -1,6 +1,6 @@
 /* common styles */
 .navbar-inverse {
-  background-color: #000;
+  background-color: #222;
   border-color: #080808;
   /*
   box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 2px, rgba(0, 0, 0, 0.341176) 0px 3px 6px;
@@ -10,19 +10,35 @@
 .navbar-inverse .navbar-nav>li>a {
   color: #98b5c5;
 }
+.navbar-brand {
+  height: 80px;
+  padding: 0;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding:10px;
+  width: auto;
+}
+.nav>li>a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.active-link>li {
+  background-color: #080808;
+}
 
 /* narrow screens */
 @media screen and (max-width: 700px) {
-	.logo {
-    padding: 10px;
-	}
+
 }
 
 /* medium screens */
 
 /* wide screens */
 @media screen and (min-width: 700px) {
-  .logo {
-    padding: 0;
-  }
+
 }

@@ -1,12 +1,15 @@
 .app {
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  display: block;
   height: 100%;
   width: 100%;
+
+  border: 1px solid gray;
 }
-.content {
-  flex: 1 0 100%;
+.content-container, .content-block {
+  display: block;
+  height: 100%;
+  width: 100%;
+
   border: 1px solid gray;
 }
 
