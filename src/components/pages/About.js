@@ -1,11 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <div>
-    <div className="content" />
-    <div>
-    About
-    </div>
-    <div className="content" />
+  <div className="content-container">
+    <span className="text-center"> About </span>
   </div>
 );

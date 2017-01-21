@@ -1,15 +1,18 @@
 .app {
   display: block;
   height: 100%;
-  width: 100%;
-
-  border: 1px solid gray;
 }
-.content-container, .content-block {
-  display: block;
-  height: 100%;
-  width: 100%;
+.content-container {
+  position: relative;
+  display: flex;
+  margin-top: 80px;
+  height: calc(100% - 80px);
 
-  border: 1px solid gray;
+  border: 3px solid red;
 }
-
+.text-center {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

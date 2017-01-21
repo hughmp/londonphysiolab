@@ -21,7 +21,7 @@ export default () => (
           to="/about"
           activeClassName="active-link"
         >
-          <NavItem eventKey={1} href="#">
+          <NavItem eventKey={1}>
             ABOUT
           </NavItem>
         </LinkContainer>
@@ -32,10 +32,38 @@ export default () => (
           <MenuItem divider />
           <MenuItem eventKey={2.3}>Clinical Pilates</MenuItem>
         </NavDropdown>
-        <NavItem eventKey={4} href="#">LOCATIONS</NavItem>
-        <NavItem eventKey={5} href="#">FEES</NavItem>
-        <NavItem eventKey={6} href="#">INSURANCE</NavItem>
-        <NavItem eventKey={7} href="#">CONTACT</NavItem>
+        <LinkContainer
+          to="/locations"
+          activeClassName="active-link"
+        >
+          <NavItem eventKey={3}>
+            LOCATIONS
+          </NavItem>
+        </LinkContainer>
+        <LinkContainer
+          to="/fees"
+          activeClassName="active-link"
+        >
+          <NavItem eventKey={4}>
+            FEES
+          </NavItem>
+        </LinkContainer>        
+        <LinkContainer
+          to="/insurance"
+          activeClassName="active-link"
+        >
+          <NavItem eventKey={5}>
+            INSURANCE
+          </NavItem>
+        </LinkContainer>  
+        <LinkContainer
+          to="/contact"
+          activeClassName="active-link"
+        >
+          <NavItem eventKey={6}>
+            CONTACT
+          </NavItem>
+        </LinkContainer>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
