@@ -10,7 +10,7 @@ export default () => (
     <Navbar.Header>
       <Navbar.Brand>
         <a href="/">
-          <img src={logo} alt="London Physio Lab" className="logo" />
+          <img src={logo} alt="London Physio Lab" className="img-responsive" />
         </a>
       </Navbar.Brand>
       <Navbar.Toggle />

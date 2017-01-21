@@ -70,10 +70,10 @@ export default () => (
         A short sentence here describing why they should get in touch would be rad ..!
       </p>
       <div className="footer-icons">
-        <a href="#"><i className="fa fa-facebook"></i></a>
-        <a href="#"><i className="fa fa-twitter"></i></a>
-        <a href="#"><i className="fa fa-linkedin"></i></a>
-        <a href="#"><i className="fa fa-github"></i></a>
+        <a href="https://www.facebook.com/aiskeating"><i className="fa fa-facebook"></i></a>
+        <a href="/"><i className="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/aisling-keating-51b85433"><i className="fa fa-linkedin"></i></a>
+        <a href="/"><i className="fa fa-github"></i></a>
       </div>
     </div>
 
