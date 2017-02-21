@@ -14,6 +14,9 @@
   align-items: center;
   height: 80px;
 }
+.navbar-header button {
+  margin: 0;
+}
 .navbar-brand {
   display: flex;
   height: 100%;
