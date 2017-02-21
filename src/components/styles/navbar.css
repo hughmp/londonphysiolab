@@ -53,9 +53,10 @@
 
 }
 
-/* wide screens */
-@media (min-width: 1200px) {
-
+@media (min-width: 951px) {
+  .navbar-brand {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 950px) {
