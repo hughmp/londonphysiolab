@@ -6,7 +6,7 @@ import './styles/navbar.css';
 import logo from '../../public/images/london-physio-lab-logo.png';
 
 export default () => (
-  <Navbar inverse fixedTop collapseOnSelect>
+  <Navbar fluid inverse fixedTop collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
         <a href="/">
@@ -25,13 +25,14 @@ export default () => (
             ABOUT
           </NavItem>
         </LinkContainer>
-        <NavDropdown eventKey={2} title="SERVICES" id="basic-nav-dropdown">
-          <MenuItem eventKey={2.1}>Sports Massage</MenuItem>
-          <MenuItem eventKey={2.2}>Gait Analysis</MenuItem>
-          <MenuItem eventKey={2.3}>Running Coaching</MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey={2.3}>Clinical Pilates</MenuItem>
-        </NavDropdown>
+        <LinkContainer
+          to="/services"
+          activeClassName="active-link"
+        >
+          <NavItem eventKey={2}>
+            SERVICES
+          </NavItem>
+        </LinkContainer>
         <LinkContainer
           to="/locations"
           activeClassName="active-link"
@@ -47,7 +48,7 @@ export default () => (
           <NavItem eventKey={4}>
             FEES
           </NavItem>
-        </LinkContainer>        
+        </LinkContainer>
         <LinkContainer
           to="/insurance"
           activeClassName="active-link"
@@ -55,7 +56,7 @@ export default () => (
           <NavItem eventKey={5}>
             INSURANCE
           </NavItem>
-        </LinkContainer>  
+        </LinkContainer>
         <LinkContainer
           to="/contact"
           activeClassName="active-link"

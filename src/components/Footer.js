@@ -35,8 +35,8 @@ export default () => (
         </p>
       </div>
       <div>
-      <i className="fa fa-envelope"></i>
-      <p><a href="mailto:aisling@londonphysiolab.com">Click to e-mail</a></p>
+        <i className="fa fa-envelope"></i>
+        <p><a href="mailto:aisling@londonphysiolab.com">Click to e-mail</a></p>
       </div>
     </div>
 
@@ -60,20 +60,18 @@ export default () => (
         </p>
       </div>
       <div>
-      <i className="fa fa-envelope"></i>
-      <p><a href="mailto:aisling@londonphysiolab.com">Click to e-mail</a></p>
+        <i className="fa fa-envelope"></i>
+        <p><a href="mailto:aisling@londonphysiolab.com">Click to e-mail</a></p>
       </div>
     </div>
     <div className="footer-right">
       <p className="footer-company-about">
         <span>your wellbeing = my focus</span>
-        A short sentence here describing why they should get in touch would be rad ..!
+        Don't let an injury derail your training program, book today for an expert opinion on management!
       </p>
       <div className="footer-icons">
         <a href="https://www.facebook.com/aiskeating"><i className="fa fa-facebook"></i></a>
-        <a href="/"><i className="fa fa-twitter"></i></a>
         <a href="https://www.linkedin.com/in/aisling-keating-51b85433"><i className="fa fa-linkedin"></i></a>
-        <a href="/"><i className="fa fa-github"></i></a>
       </div>
     </div>
 
