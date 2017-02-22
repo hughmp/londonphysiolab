@@ -38,22 +38,7 @@
   background-color: #080808;
 }
 
-/* portrait screens */
-@media (max-width: 768px) {
-
-}
-
-/* narrow screens */
-@media (min-width: 768px) {
-
-}
-
-/* medium screens */
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 951px) {
+@media (min-width: 950px) {
   .navbar-brand {
     max-width: 300px;
   }

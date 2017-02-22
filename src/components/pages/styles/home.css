@@ -29,13 +29,13 @@
 .text {
   display: flex;
   flex-direction: column;
-  flex: 2 0 auto;
+  flex: 0 1 auto;
   align-self: center;
-  padding: 0 5%;
+  /*padding: 0 5%;*/
   font-size: 1.3rem;
-  max-width: 500px;
+  /*max-width: 70vw;*/
 
-  /*border: 1px solid green;*/
+  border: 50px solid transparent;
 }
 
 .text h1 {
@@ -55,4 +55,16 @@
 .text h1 {
 
   text-align: center;
+}
+
+@media (min-width: 950px) {
+  .text {
+    flex: 0 1 100%;
+    padding: 0 5%;
+    
+    /*border: 1px solid green;*/
+  }
+  .image {
+    flex: 1 1 100%;
+  }
 }
