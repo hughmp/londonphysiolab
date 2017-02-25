@@ -1,16 +1,15 @@
 .app {
   display: block;
-  height: 100%;
+  min-height: 100%;
 }
 .content-container {
   position: relative;
   display: flex;
   flex-direction: row;
   margin-top: 80px;
+  min-height: calc(80vh - 80px);
   /*height: calc(100% - 80px);*/
-  min-height: calc(100% - 80px);
-  height: auto;
-
+  /*min-height: calc(100% - 80px);*/
   /*border: 3px solid red;*/
 }
 .text-center {

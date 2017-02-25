@@ -26,6 +26,7 @@ export default () => (
         <li><i className="fa fa-check" aria-hidden="true"></i> Special interest in chronic centralised pain, low back and neck pain</li>
         <li><i className="fa fa-check" aria-hidden="true"></i> Special interest in shoulder, hip and knee rehabilitation</li>
       </ul>
+      <br />
     </div>
   </div>
 );
