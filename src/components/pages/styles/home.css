@@ -38,6 +38,21 @@
   border: 50px solid transparent;
 }
 
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.image .grn {
+  color: #498b30;
+  animation: blinker 2s linear infinite;
+}
+
+.image .eq {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 10px;
+}
+
 .text p {
   text-align: justify;
 }

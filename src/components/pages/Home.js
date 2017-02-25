@@ -8,7 +8,7 @@ export default () => (
   <div className='content-container'>
     <div className='image'>
       <img src={home} alt='Aisling Keating' />
-      <h1>your wellbeing = my focus</h1>
+      <h1>your <span className='grn'>wellbeing</span> <span className='eq'>=</span> my <span className='grn'>focus</span></h1>
     </div>
     <div className='text'>
       <h1>Why me?</h1>
