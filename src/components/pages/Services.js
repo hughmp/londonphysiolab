@@ -5,6 +5,7 @@ import './styles/services.css';
 export default () => (
   <div className="content-container">
     <div className='text services'>
+      <h2>Services</h2>
       <h4>Treatment can be a mix of the following, depending on your injury;</h4>
       <br />
       <ul>
