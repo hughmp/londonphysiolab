@@ -1,0 +1,12 @@
+.logos {
+  display: inline;
+  text-align: center;
+}
+
+.logos img {
+  padding: 1rem;
+}
+
+.content-container.insurance {
+  flex-direction: column;
+}

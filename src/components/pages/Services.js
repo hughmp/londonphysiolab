@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './styles/services.css';
+
 export default () => (
   <div className="content-container">
-    <div className='text'>
-      <h4>Treatment can be a mix of the following, depending on your injury.</h4>
+    <div className='text services'>
+      <h4>Treatment can be a mix of the following, depending on your injury;</h4>
       <br />
       <ul>
         <li><i className="fa fa-medkit" aria-hidden="true" /> IMS dry needling</li>

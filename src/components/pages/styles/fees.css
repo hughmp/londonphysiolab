@@ -2,9 +2,9 @@
   font-weight: 900;
 }
 
-div.fees.text {
+.text.fees {
   padding: 0;
   margin: auto;
   border: 0;
-  text-align: center; 
+  align-items: center;
 }

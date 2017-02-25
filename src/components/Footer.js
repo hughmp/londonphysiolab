@@ -36,7 +36,7 @@ export default () => (
       </div>
       <div>
         <i className="fa fa-envelope"></i>
-        <p><a href="mailto:aisling@londonphysiolab.com">Send message</a></p>
+        <p><a href="mailto:aisling@londonphysiolab.com">email me</a></p>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ export default () => (
       </div>
       <div>
         <i className="fa fa-envelope"></i>
-        <p><a href="mailto:aisling@londonphysiolab.com">Send message</a></p>
+        <p><a href="mailto:aisling@londonphysiolab.com">email me</a></p>
       </div>
     </div>
     <div className="footer-right">
