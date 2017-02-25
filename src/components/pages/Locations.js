@@ -11,7 +11,7 @@ export default () => (
         W8 4ED<br />
         <br />
         <a href='mailto:aisling@londonphysiolab.com'>aisling@londonphysiolab.com</a><br />
-        Appointments:  0203 303 0275<br />
+        Appointments:  <a href="tel:+442033030275">0203 303 0275</a><br />
         <br />
         Nearest tube: Notting Hill Gate 2min walk, High St Ken 10min walk
       </address>
@@ -27,7 +27,7 @@ export default () => (
         EC2M 5PP<br />
         <br />
         <a href='mailto:aisling@londonphysiolab.com'>aisling@londonphysiolab.com</a><br />
-        Appointments:  020 7374 6181<br />
+        Appointments:  <a href="tel:+442073746181">020 7374 6181</a><br />
         <br />
         Nearest tube: Liverpool St 2min Walk, Moorgate 3min walk
       </address>
