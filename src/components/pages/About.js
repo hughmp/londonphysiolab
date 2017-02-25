@@ -2,14 +2,14 @@ import React from 'react';
 
 // import './styles/home.css';
 
-// import home from '../../../public/images/home.jpg';
+import ais from '../../../public/images/about.jpg';
 
 export default () => (
   <div className='content-container'>
-    <div className='image'>
-      {/*<img src={home} alt='Aisling Keating' />*/}
+    <div className='about image'>
+      <img src={ais} alt='Aisling Keating' />
     </div>
-    <div className='text'>
+    <div className='about text'>
       <h2>About Me</h2>
       <h3>Aisling Keating BSc (Hons)</h3>
       <p>
