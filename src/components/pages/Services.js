@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <div className="content-container">
-    <div className='services text'>
+    <div className='text'>
       <h4>Treatment can be a mix of the following, depending on your injury.</h4>
       <br />
       <ul>

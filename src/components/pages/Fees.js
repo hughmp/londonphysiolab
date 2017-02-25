@@ -1,14 +1,16 @@
 import React from 'react';
 
+import './styles/fees.css';
+
 export default () => (
   <div className="content-container">
-    <div className='services text'>
+    <div className='fees text'>
       <ul>
-        <li><i className="fa fa-angle-right" aria-hidden="true" /> Initial senior Physiotherapy assessment (1hr) :  £100</li>
-        <li><i className="fa fa-angle-right" aria-hidden="true" /> Follow up Physiotherapy session (1/2hr) :  £65</li>
-        <li><i className="fa fa-angle-right" aria-hidden="true" /> Physiotherapy Home Visits (1hr) :  poa</li>
-        <li><i className="fa fa-angle-right" aria-hidden="true" /> Run gait assessment (1hr) :  £85</li>
-        <li><i className="fa fa-angle-right" aria-hidden="true" /> Workstation assessment :  poa</li>
+        <li><i className="fa fa-angle-right" aria-hidden="true" /> Initial senior Physiotherapy assessment (1hr) :  <span>£100</span></li>
+        <li><i className="fa fa-angle-right" aria-hidden="true" /> Follow up Physiotherapy session (1/2hr) :  <span>£65</span></li>
+        <li><i className="fa fa-angle-right" aria-hidden="true" /> Physiotherapy Home Visits (1hr) :  <span>poa</span></li>
+        <li><i className="fa fa-angle-right" aria-hidden="true" /> Run gait assessment (1hr) :  <span>£85</span></li>
+        <li><i className="fa fa-angle-right" aria-hidden="true" /> Workstation assessment :  <span>poa</span></li>
       </ul>
     </div>
   </div>

@@ -1,15 +1,15 @@
 import React from 'react';
 
-// import './styles/home.css';
+import './styles/about.css';
 
 import ais from '../../../public/images/about.jpg';
 
 export default () => (
-  <div className='content-container'>
-    <div className='about image'>
+  <div className='content-container about'>
+    <div className='image'>
       <img src={ais} alt='Aisling Keating' />
     </div>
-    <div className='about text'>
+    <div className='text'>
       <h2>About Me</h2>
       <h3>Aisling Keating BSc (Hons)</h3>
       <p>

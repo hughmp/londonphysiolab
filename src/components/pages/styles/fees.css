@@ -1,0 +1,10 @@
+.fees span {
+  font-weight: 900;
+}
+
+div.fees.text {
+  padding: 0;
+  margin: auto;
+  border: 0;
+  text-align: center; 
+}
