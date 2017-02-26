@@ -14,6 +14,16 @@ export default () => (
       </span>
       <p className="footer-links" />
       <p className="footer-company-name">London Physio Lab &copy; 2017</p>
+      <br />
+      <iframe
+        src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Flondonphysiolab%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=false&colorscheme=dark&height=80&appId"
+        width="150"
+        height="80"
+        style={{ border: 'none', overflow: 'hidden' }}
+        scrolling="no"
+        frameBorder="0"
+        allowTransparency="true"
+      />
     </div>
 
     <div className="footer-center">
